@@ -8,6 +8,7 @@ body, html {
 #content {
   margin: 0 auto;
   width: 800px;
+  z-index: 100;
 }
 
 ul {
@@ -41,7 +42,7 @@ img {
 }
 
 #navitem {
-  padding-left: 16px;
+  margin-left: 16px;
   font-size: 16px;
   display: flex;
   align-self: center;
@@ -73,6 +74,10 @@ img {
   padding-right: 12px;
   display: flex;
   align-self: center;
+}
+
+.social-item:hover {
+  opacity: .75
 }
 
 #socialBar {
@@ -206,4 +211,52 @@ footer {
 
 #wrapper {
   display: none;
+}
+
+#scrollJump {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#airbnbutton {
+  display: flex;
+  align-self: center;
+}
+
+#placeTitle {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: bold;
+}
+
+#placetitleparent {
+  height: 95%;
+}
+
+#ashaTag:hover {
+  cursor: pointer;
+}
+
+#ashaLogo {
+  width: 100%;
+}
+
+#placesWrapper {
+  height: 95%;
+}
+
+#asha {
+  display: none;
+}
+
+.ashaimg {
+  padding-right: 20px;
+}
+
+.active {
+    border-bottom: 2px solid currentColor; /* Or whatever color you want */
+    text-decoration: none;
 }
