@@ -32,7 +32,7 @@ $(document).ready(function(){
 			$(this).addClass("social-item-hover");
 		},
 		function() {
-			$(this).addClass("social-item-hover");
+			$(this).removeClass("social-item-hover");
 		}
 	);
 });
