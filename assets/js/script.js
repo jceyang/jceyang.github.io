@@ -14,5 +14,25 @@ $(document).ready(function(){
     $("#asha").fadeOut(1000);
     console.log("hi");
 	});
-  
+
+  $("#modal-overlay").click(function(){
+    $("#modal-container").hide();
+	});
+	$(".link").hover(
+		function() {
+			$(this).css("color", "#9ed4ec");
+		},
+		function() {
+			$(this).css("color", "#6fafcd");
+		}
+	);
+
+  $(".social-item").hover(
+		function() {
+			$(this).addClass("social-item-hover");
+		},
+		function() {
+			$(this).addClass("social-item-hover");
+		}
+	);
 });
