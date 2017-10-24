@@ -260,3 +260,7 @@ footer {
     border-bottom: 2px solid currentColor; /* Or whatever color you want */
     text-decoration: none;
 }
+
+.coded {
+  opacity: 50%;
+}
